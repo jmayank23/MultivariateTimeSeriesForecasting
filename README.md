@@ -1,5 +1,8 @@
 # Multivariate Time Series Forecasting
 
+![stock_pred](https://github.com/jmayank23/MultivariateTimeSeriesForecasting/assets/27727185/4dd8b83c-2d7d-472b-8be6-be3f43bbb7c0)
+
+
 ## Overview
 
 This repository contains a robust and versatile model to perform multivariate time series forecasting to analyze and predict stock market data. 
