@@ -23,17 +23,17 @@ Key features that users can customize include:
 
 The script includes the following steps:
 
-1. Downloading Stock Data: The data is downloaded from Yahoo Finance for a specific ticker within a specific date range. 
+1. **Downloading Stock Data:** The data is downloaded from Yahoo Finance for a specific ticker within a specific date range. 
 
-2. Data Exploration: The script generates various plots to help visualize the data, including line plots for stock adjusted closing prices and volume, as well as plots showing stock high, low, and spread.
+2. **Data Exploration:** The script generates various plots to help visualize the data, including line plots for stock adjusted closing prices and volume, as well as plots showing stock high, low, and spread.
 
-3. Data Processing: The data is then processed and scaled using StandardScaler. The past 'n' days are used to predict the 'n_future' days. The data is also split into training and testing sets.
+3. **Data Processing:** The data is then processed and scaled using StandardScaler. The past 'n' days are used to predict the 'n_future' days. The data is also split into training and testing sets.
 
-4. Machine Learning: Different deep learning models are trained on the data, including an LSTM model, a CNN model, an Ensemble model which uses both LSTM and CNN, and a hybrid LSTM Conv model. These models are then used to predict future prices.
+4. **Machine Learning:** Different deep learning models are trained on the data, including an LSTM model, a CNN model, an Ensemble model which uses both LSTM and CNN, and a hybrid LSTM Conv model. These models are then used to predict future prices.
 
-5. Training: The models are trained using a predefined number of epochs, and the loss for both training and validation datasets is plotted to observe how the models perform.
+5. **Training:** The models are trained using a predefined number of epochs, and the loss for both training and validation datasets is plotted to observe how the models perform.
 
-6. Predicting and Validating: The models are used to predict future stock prices for specific dates, and the results are compared against the actual prices to assess the model's accuracy.
+6. **Predicting and Validating:** The models are used to predict future stock prices for specific dates, and the results are compared against the actual prices to assess the model's accuracy.
 
 
 ## Usage
